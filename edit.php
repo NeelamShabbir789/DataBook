@@ -16,7 +16,7 @@ $row = mysqli_fetch_assoc($result);
 <div class="form">
 <p><a href="dashboard.php">Dashboard</a> 
 | <a href="insert.php">Insert New Record</a> 
-| <a href="logout.php">Logout</a></p>
+|
 <h1>Update Record</h1>
 <?php
 $status = "";

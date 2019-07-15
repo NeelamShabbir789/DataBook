@@ -9,7 +9,7 @@ if(!$db)
 }
 else{
 
-	echo"Connected";
+	echo"";
 }
 
 

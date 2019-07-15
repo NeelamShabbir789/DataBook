@@ -1,4 +1,5 @@
 <?php
+
 require('db.php');
 ?>
 <!DOCTYPE html>
@@ -9,9 +10,9 @@ require('db.php');
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<div class="form">
-<p>Welcome to Dashboard.</p>
-<p><a href="insert.php">Insert New Record</a></p>
+<div  align="center"  font  ="" class="form">
+<p><h1>Welcome to Dashboard.</h1></p>
+<p> <a href="insert.php">Insert New Record</a></p>
 <p><a href="view.php">View Records</a><p>
 </div>
 </body>

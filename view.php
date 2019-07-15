@@ -10,7 +10,6 @@ require('db.php');
 </head>
 <body>
 <div class="form">
-<p><a href="index.php">Home</a> 
 | <a href="insert.php">Insert New Record</a> 
 <h2>View Records</h2>
 <table width="100%" border="1" style="border-collapse:collapse;">
@@ -20,6 +19,8 @@ require('db.php');
 <th><strong>Email</strong></th>
 <th><strong>Password</strong></th>
 <th><strong>Mobile</strong></th>
+<th><strong>Edit</strong></th>
+<th><strong>Delete</strong></th>
 </tr>
 </thead>
 <tbody>

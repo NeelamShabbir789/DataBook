@@ -1,5 +1,7 @@
 <?php
 require('db.php');
+
+
 $status = "";
 if(isset($_POST['new']) && $_POST['new']==1){
 
@@ -29,7 +31,7 @@ if(isset($_POST['new']) && $_POST['new']==1){
 <div class="form">
 <p><a href="dashboard.php">Dashboard</a> 
 | <a href="view.php">View Records</a> 
-| <a href="logout.php">Logout</a></p>
+|
 <div>
 <h1>Insert New Record</h1>
 <form name="form" method="post" action=""> 
